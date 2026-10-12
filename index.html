@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#d6212f"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8F%A0%3C/text%3E%3C/svg%3E"><title>Matkasym — товары для дома</title><meta name="description" content="Matkasym — товары для дома в понятных сетах. Доставка по Кыргызстану.">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"></head><body><noscript><p style="padding:24px;font-family:sans-serif">Для работы сайта включите JavaScript.</p></noscript>
+<div id="shop">
+<header><div class="wrap bar"><a class="logo" href="#/">MAT<b>KA</b>SYM</a><a class="cat-btn" href="#/sets">☰ Сеты</a>
+<div class="sw"><input id="q" type="search" placeholder="Поиск товаров, сетов, артикулов" aria-label="Поиск" autocomplete="off"><div class="sug" id="sug"></div></div>
+<a class="ib" href="#/orders" title="Мои заказы">📦 <span>Заказы</span></a>
+<a class="ib" href="#/compare" title="Сравнение">⇄ <span>Сравнить</span> <em id="kcnt">0</em></a>
+<a class="ib" href="#/favs" title="Избранное">♥ <span>Избранное</span> <em id="fcnt">0</em></a>
+<a class="ib" href="#/cart" id="cartLink" title="Корзина">🛒 <span>Корзина</span> <em id="cnt">0</em></a>
+<button class="ib" data-act="theme" aria-label="Тема">🌓</button></div>
+<nav class="sub-nav wrap"><a href="#/" data-n="home">Главная</a><a href="#/sets" data-n="sets">Сеты</a><a href="#/catalog" data-n="catalog">Каталог</a><a href="#/about" data-n="about">О компании</a><a href="#/contacts" data-n="contacts">Контакты и доставка</a></nav></header>
+<main id="app"></main>
+<footer id="foot"></footer>
+<nav class="bnav"><a href="#/">🏠<span>Главная</span></a><a href="#/sets">🧩<span>Сеты</span></a><a href="#/cart">🛒<span>Корзина</span><em id="bcnt">0</em></a><a href="#/favs">♥<span>Избранное</span></a><a href="#/contacts">☎️<span>Контакты</span></a></nav>
+</div>
+<a class="wa" id="wa" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a><button id="top" data-act="top" aria-label="Наверх">↑</button>
+<div id="staff" hidden></div>
+<div class="veil" id="veil"></div><div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+<div class="veil" id="sv"></div><div class="modal one" id="sm" role="dialog" aria-modal="true"></div><div class="toast" id="toast"></div>
+<script src="js/data.js"></script><script src="js/shop.js"></script><script src="js/api.js"></script><script src="js/staff.js"></script><script src="js/staff2.js"></script><script src="js/staff3.js"></script><script src="js/rules.js"></script><script>route();</script>
+</body></html>
